@@ -1,0 +1,23 @@
+.incident-list { margin: 0 15px 9px; border-top: 1px solid #294247; border-bottom: 1px solid #294247; padding: 8px 0; }
+.incident-list-heading, .incident-item-top, .diagnostic-heading { display: flex; align-items: center; gap: 7px; font-size: 8px; }
+.incident-list-heading { justify-content: space-between; color: #d0dddd; letter-spacing: .5px; }
+.incident-list-heading strong { color: var(--color-alarm); }
+.incident-item { margin-top: 7px; padding: 7px; border: 1px solid #3b3335; background: #17191d; }
+.incident-item-top { color: #6f8489; }
+.incident-item-top code { color: #6fa49b; font-size: 7px; }
+.incident-item-top time { margin-left: auto; }
+.incident-item > strong { display: block; margin-top: 5px; color: #d8e3e1; font-size: 9px; }
+.incident-item p, .diagnostic-result p, .work-order-confirm p { margin: 4px 0; color: #9aabad; font-size: 8px; line-height: 1.4; }
+.incident-priority { color: #ef6d68; }
+.priority-medium { color: #f3b653; }
+.incident-actions { display: flex; gap: 5px; margin-top: 6px; }
+.incident-actions button, .work-order-confirm button { border: 1px solid #315c58; background: #102824; color: #a6cfca; padding: 4px 6px; font-size: 8px; cursor: pointer; }
+.incident-actions button:disabled, .work-order-confirm button:disabled { opacity: .45; cursor: wait; }
+.diagnostic-result, .work-order-confirm { margin: 0 15px 9px; padding: 8px; border: 1px solid #315c58; background: #0d211f; }
+.diagnostic-heading { justify-content: space-between; color: #bce1da; }
+.diagnostic-heading span { color: var(--color-normal); }
+.diagnostic-result small { display: block; color: #789294; font-size: 8px; line-height: 1.4; }
+.diagnostic-result ol { margin: 6px 0 0 15px; padding: 0; color: #a4c0bc; font-size: 8px; line-height: 1.5; }
+.work-order-confirm strong { color: #d3e2df; font-size: 9px; }
+.work-order-confirm label { display: inline-flex; align-items: center; gap: 4px; margin: 4px 7px 5px 0; color: #83999c; font-size: 8px; }
+.work-order-confirm input, .work-order-confirm select { width: 82px; border: 1px solid #294047; background: #0a1317; color: #b8ccca; font-size: 8px; }
